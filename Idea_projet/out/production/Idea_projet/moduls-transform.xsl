@@ -8,12 +8,13 @@
                 <table>
                 <xsl:apply-templates select="//change"/>
                 </table>
+                <h1>Всего ставок за сегодня: <xsl:value-of select="count(//change)"/></h1>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="change">
         <tr>
-            <td>
+            <td><a>Время:</a>
                 <xsl:value-of select="@time"/>
             </td>
             <td>
@@ -25,12 +26,13 @@
         </tr>
     </xsl:template>
     <xsl:template match="forecast">
-        <td>
+        <tr>
+            <td><a>Имя:</a>
             <xsl:value-of select="@name"/>
-
-        </td>
-        <td>
-            <xsl:value-of select="@rate"/><a>usd</a><br>
-        </td>
+            </td>
+            <td>
+                <xsl:value-of select="@rate"/>
+            </td>
+        </tr>
     </xsl:template>
 </xsl:stylesheet>
