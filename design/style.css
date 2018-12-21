@@ -1,0 +1,64 @@
+body
+{
+	background-color: #262626;
+	color: white;
+}
+
+h1
+{
+	margin-bottom: 0px;
+	float: left;
+	margin-left: 250px;
+	margin-top: -13px;
+	font-size: 300%;
+}
+
+#registr
+{
+	margin-bottom: 50px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 200%;
+	margin-top: 100px;
+	margin-left: 630px;
+}
+
+.text
+{
+	text-align: center;
+	margin-right: 400px;
+	margin-left: 400px;
+	font-size: 150%;
+}
+
+#d1
+{
+	margin-top: 100px;
+}
+
+#d2
+{
+	text-align: center;
+	font-size: 190%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-family: Arial, sans-serif;
+}
+
+.boom
+{
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+ 
+.boom:hover
+{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+#footer
+{
+	margin-top: 110px;
+}
