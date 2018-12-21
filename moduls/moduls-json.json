@@ -1,0 +1,71 @@
+[
+   {
+      "@currency": "USD",
+      "@id": "1",
+      "@time": "1200",
+      "@difference": "0.05",
+      "forecast": [
+         {
+            "@id": "1",
+            "@difference": "0.05",
+            "@rate": "1"
+         },
+         {
+            "@id": "2",
+            "@difference": "0.15",
+            "@rate": "2"
+         },
+         {
+            "@id": "3",
+            "@difference": "0.05",
+            "@rate": "10"
+         }
+      ]
+   },
+   {
+      "@currency": "USD",
+      "@id": "2",
+      "@time": "1300",
+      "@difference": "0.1",
+      "forecast": [
+         {
+            "@id": "1",
+            "@difference": "0.1",
+            "@rate": "5"
+         },
+         {
+            "@id": "2",
+            "@difference": "0.1",
+            "@rate": "2"
+         },
+         {
+            "@id": "3",
+            "@difference": "0.05",
+            "@rate": "8"
+         }
+      ]
+   },
+   {
+      "@currency": "USD",
+      "@id": "3",
+      "@time": "1400",
+      "@difference": "0.2",
+      "forecast": [
+         {
+            "@id": "1",
+            "@difference": "0.3",
+            "@rate": "13"
+         },
+         {
+            "@id": "2",
+            "@difference": "0.2",
+            "@rate": "4"
+         },
+         {
+            "@id": "3",
+            "@difference": "0.15",
+            "@rate": "9"
+         }
+      ]
+   }
+]
