@@ -1,17 +1,17 @@
 <currency>
 	<change currency="USD" id="1" time="1200" difference="0.05" type="1">
-		<forecast id="1" difference="0.05" type="0" rate="1"/>
-		<forecast id="2" difference="0.15" type="1" rate="2"/>
-		<forecast id="3" difference="0.05" type="1" rate="10"/>
+		<forecast id="1" name="Andrei" difference="0.05" type="0" rate="1" />
+		<forecast id="2" name="Anton" difference="0.15" type="1" rate="2"/>
+		<forecast id="3" name="Alexey" difference="0.05" type="1" rate="10"/>
 	</change>
 	<change currency="USD" id="2" time="1300" difference="0.1" type="0">
-		<forecast id="1" difference="0.1" type="1" rate="5"/>
-		<forecast id="2" difference="0.1" type="0" rate="2"/>
-		<forecast id="3" difference="0.05" type="1" rate="8"/>
+		<forecast id="1" name="Andrei" difference="0.1" type="1" rate="5"/>
+		<forecast id="2" name="Anton" difference="0.1" type="0" rate="2"/>
+		<forecast id="3" name="Alexey" difference="0.05" type="1" rate="8"/>
 	</change>
 	<change currency="USD" id="3" time="1400" difference="0.2" type="1">
-		<forecast id="1" difference="0.3" type="1" rate="13"/>
-		<forecast id="2" difference="0.2" type="1" rate="4"/>
-		<forecast id="3" difference="0.15" type="0" rate="9"/>
+		<forecast id="1" name="Andrei" difference="0.3" type="1" rate="13"/>
+		<forecast id="2" name="Anton" difference="0.2" type="1" rate="4"/>
+		<forecast id="3" name="Alexey" difference="0.15" type="0" rate="9"/>
 	</change>
 </currency>
