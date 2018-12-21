@@ -9,6 +9,10 @@
                 <xsl:apply-templates select="//change"/>
                 </table>
                 <h1>Всего ставок за сегодня: <xsl:value-of select="count(//change)"/></h1>
+                <h1>Как росла валюта</h1>
+                <table>
+                    <xsl:apply-templates select="/currency"/>
+                </table>
             </body>
         </html>
     </xsl:template>
@@ -32,6 +36,16 @@
             </td>
             <td>
                 <xsl:value-of select="@rate"/>
+            </td>
+        </tr>
+    </xsl:template>
+    <xsl:template match="currency">
+        <tr>
+            <td>
+                <xsl:value-of select="//change/@difference"/>
+            </td>
+            <td>
+                <xsl:value-of select="//change/@type"/>
             </td>
         </tr>
     </xsl:template>
