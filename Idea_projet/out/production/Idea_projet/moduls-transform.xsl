@@ -30,7 +30,7 @@
 
         </td>
         <td>
-            <xsl:value-of select="@rate"/><a>usd</a>
+            <xsl:value-of select="@rate"/><a>usd</a><br>
         </td>
     </xsl:template>
 </xsl:stylesheet>
