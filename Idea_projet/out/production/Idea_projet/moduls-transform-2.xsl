@@ -4,12 +4,12 @@
         <html>
 
             <body>
-                <h1>Топ 3 ставок</h1>
+                <h1>Топ ставки за сегодня</h1>
 
                 <table>
 
-                    <xsl:apply-templates select="//change">
-                        <xsl:sort select="//@rate" order="descending" data-type="number"/>
+                    <xsl:apply-templates select="//forecast">
+                        <xsl:sort select="./@rate" order="descending" data-type="number"/>
                     </xsl:apply-templates>
 
                 </table>
@@ -18,7 +18,7 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="change">
+    <xsl:template match="forecast">
 
         <tr>
             <td><a>Имя:</a>
